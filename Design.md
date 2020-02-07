@@ -14,21 +14,29 @@
 
 *Link to or describe customer requirements.*
 
-## User Stories
-
-*Describe use cases in narrative form. Cover the actions that users (whether they are end users or API clients) need to be able to perform. Describe them in a way that a QA technician could validate them without understanding the code.*
-
 ## Third-party Documentation
 
 *Link to documentation for protocols, schemas, standards, tools, or libraries that are relevant.*
 
-## Performance and Load
+## User Stories
 
-*Are there performance requirements? Characterize the volume or rate of inputs, outputs, and storage if relevant. Are any of the components especially CPU, memory, storage, or network intensive? Is load likely to be spiky? What is the desired behavior if capacity is exceeded? Is load testing required?*
+*Describe use cases in narrative form. Cover the actions that users (whether they are end users or API clients) need to be able to perform. Describe them in a way that a QA technician could validate them without understanding the code.*
+
+## Domain Objects
+
+*What are the datatypes? What behaviors do they support? Which objects interact?*
+
+## Data Flow/Interaction Sequence
+
+*Give a temporal view of program behavior. How does data flow through the system?*
 
 ## Concurrency and Interactivity
 
 *Are there processes that happen concurrently or asynchronously? Are there resulting race conditions? Is locking required?*
+
+## Performance and Load
+
+*Are there performance requirements? Characterize the volume or rate of inputs, outputs, and storage if relevant. Are any of the components especially CPU, memory, storage, or network intensive? Is load likely to be spiky? What is the desired behavior if capacity is exceeded? Is load testing required?*
 
 ## Security
 
@@ -49,6 +57,8 @@
 
 ## Connected Systems
 
+*What other parts of the application or third-party systems  does this one connect to?*
+
 ### System List
 
 *List systems that provide input to or take input from this system. If they have design docs, provide links.*
@@ -61,7 +71,9 @@
 
 *Describe specific test protocols that are not covered in other sections such as [User Stories](#user-stories)* or [Customer Requirement Specifications](customer-requirement-specifications).
 
-## UI
+## UX/UI
+
+*If necessary, describe user interface interactions and affordances.*
 
 ## Open Questions
 
