@@ -49,6 +49,8 @@
  - *Off the shelf components*
  - *Systems with similar designs*
 
+*Sometimes library docs link to preferred third-party packages for missing functionality. If we need that functionality, it's especially good to check out these recommended packages and mention why they don't fit requirements if we decide not to use them.*
+
 ## System Architecture
 
 *Describe supporting infrastructure needs. What server resources will be required?*
