@@ -1,6 +1,6 @@
 *This document is intentended to be a starting place for small-project to large-feature design efforts.  Larger projects may need something more, smaller efforts will need something less. While it's primary audience is the developers who implement the design, it also serves an important function in communicating to developers who come later and who have to make changes in a system that's new to them.*
 
-*Instructions: When you are done, all the elements marked in italics in the original document should be replaced with the content being requested.  Of course, you can use italics in your own documents, but in this template, templates are only used to indicate instructions or places where you need to "fill in the blanks*
+*Instructions: When you are done, all the elements marked in italics in the original document should be replaced with the content being requested.  Of course, you can use italics in your own documents, but in this template, templates are only used to indicate instructions or places where you need to "fill in the blanks"*
 
 *You may want to keep the template text until the document sections are all present. Remember to delete before publishing.*
 
@@ -10,7 +10,7 @@
 
 # Design Title
 
-**Design Lead: Name** (readers will want to navigate from this document to individuals to ask questions of.  Git will be able to track down later changes, but it's still helpful to identify the point person for this doc.)
+**Design Lead: Name** (readers will want to navigate from this document to individuals to ask questions of.  Git will be able to track down later changes, but it's still helpful to identify a point person for this doc.)
 
 
 # Introduction
@@ -27,7 +27,7 @@
 
 *Focus here on terms that are specific and new to the feature/scope of this document.*  Less-frequently used tools or standards should be included here.  (e.g., a feature involving HL7 should probably have a quick description of what HL7 is here, even if only a single short sentence.)
 
-* *key term 1:  description of key term 1*
+* *key term 1: description of key term 1*
 * *key term 2: description of key term 2*
 
 
@@ -54,12 +54,11 @@ Describe use cases in narrative form. Cover the actions that users (whether they
 
 *A summary description of performance, response, and scalability needs for the feature.  Basic UI/UIX response time expectations belong here, as do estimates of the scale of traffic that a server will need to handle (e.g,. 10 exams a minute, or 10,000?).  Uptime guarantees, if any, belong here. Think of this as a readable, executive summary of the key, relevant formal requirements, which should be linked.*
 
-*Are there performance requirements? Characterize the volume or rate of inputs, outputs, and storage if relevant. Are any of the components especially CPU, memory, storage, or network intensive? Is load likely to be spiky? What is the desired behavior if capacity is exceeded? Is load testing required?*
+*Some questions to answer if they are relevant: Are there performance requirements? Characterize the volume or rate of inputs, outputs, and storage if relevant. Are any of the components especially CPU, memory, storage, or network intensive? Is load likely to be spiky? What is the desired behavior if capacity is exceeded? Is load testing required?*
 
 ## Privacy and Security
 
 *A summary description of privacy/security issues relevant to this effort.  Think of this as a readable, executive summary of the relevant formal documents, which should be linked.*
-
 
 
 
@@ -79,7 +78,7 @@ Gee it would be nice if stuff was written here.
 
 ## Connected Systems
 
-*What other parts of the application or third-party systems  does this one connect to?*
+*What other parts of the application or third-party systems does this one connect to?*
 
 ### System List
 
@@ -93,7 +92,7 @@ Gee it would be nice if stuff was written here.
 
 
 ## Domain Objects
-What are the datatypes? What behaviors do they support? Which objects interact?
+What are the data types? What behaviors do they support? Which objects interact?
 
 ## Data Flow/Interaction Sequence
 Give a temporal view of program behavior. How does data flow through the system?
@@ -106,7 +105,7 @@ Are there processes that happen concurrently or asynchronously? Are there result
 
 # Open Questions
 
-*This section is a useful place to record design risks during the process of devloping design.  Usually most of these questiosn will be resolved before development begins, however.  What still needs to be decided or described? This section can be omitted if irrelavant.*
+*Use this section to record design risks during the design process  Usually most of these questiosn will be resolved before development begins.  What still needs to be decided or described? This section can be omitted if irrelavant.*
 
 
 
@@ -140,6 +139,6 @@ Are there processes that happen concurrently or asynchronously? Are there result
 
 *This section should also identify any recommended acceptance tests for the effort.*
 
-*This section should address, at least in broad terms, needed resources for testing.  (e.g., are special versions of some servers needed?)*
+*This section should address, at least in broad terms, needed resources for testing.  (e.g., Do we need a to set up a separate set of servers to support testing separately from development and/or deployment?)*
 
-*Links to actual test documents/plans/etc. can be included here as well. but will usually not be available at the time the design is created.*
+*Links to actual test documents/plans/etc. can be included here as well. but will usually not be available at the time the design is first created.*
