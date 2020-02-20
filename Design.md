@@ -10,7 +10,7 @@
 
 # Design Title
 
-**Design Lead: Name** (not "green mars", readers will want to navigate from this document to individuals to ask questions of.)  Git will be able to track down later changes, but it's still helpful to identify the point person for this doc.
+**Design Lead: Name** (readers will want to navigate from this document to individuals to ask questions of.  Git will be able to track down later changes, but it's still helpful to identify the point person for this doc.)
 
 
 # Introduction
