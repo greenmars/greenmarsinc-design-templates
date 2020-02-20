@@ -92,15 +92,19 @@ Gee it would be nice if stuff was written here.
 
 
 ## Domain Objects
-What are the data types? What behaviors do they support? Which objects interact?
+*What are the data types? What behaviors do they support? Which objects interact?*
 
 ## Data Flow/Interaction Sequence
-Give a temporal view of program behavior. How does data flow through the system?
+*Give a temporal view of program behavior. How does data flow through the system?*
+
+## Algorithms
+*Are there complex, non-trivial algorithms required by the design?  Are they relatively unique to the project (e.g., patient reconcilation for eXo), or instead are they relatively common needs (say, a fast fourier transform)?  Describe unique algorithms in detail.  For other algorithms, either use existing libraries/tools (and explain why you bleieve they're sufficient to the task) or provide a good engineering justification for not making use of existing tools.*
 
 ## Concurrency and Interactivity
-Are there processes that happen concurrently or asynchronously? Are there resulting race conditions? Is locking required?
+*Are there processes that happen concurrently or asynchronously? Are there resulting race conditions? Is locking required?*
 
-
+## Fault Tree Analysis
+*How are exceptions and other faults handled?  (An example of a fault tree analysis can be found in our eXo Cloud Architecture document.)
 
 
 # Open Questions
