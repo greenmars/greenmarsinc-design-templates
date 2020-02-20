@@ -19,7 +19,7 @@
 
 *A few words about project context can fit in nicely here. If the client is on an unusually tight budget or schedule, include that sort of basic scene-setting here.*
 
-**A diagram may be included in this section, but should be included only if it is simple and accessible enough that a reader can make sense of what it's saying without the context provided further down in the document. Complex architectural diagrams are best included further down in the doc.*
+*A diagram may be included in this section, but should be included only if it is simple and accessible enough that a reader can make sense of what it's saying without the context provided further down in the document. Complex architectural diagrams are best included further down in the doc.*
 
 
 
