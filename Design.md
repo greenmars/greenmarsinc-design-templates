@@ -33,7 +33,7 @@
 
 
 
-# BACKGROUND
+# Background
 
 
 ## Requirements
@@ -63,7 +63,7 @@ Describe use cases in narrative form. Cover the actions that users (whether they
 
 
 
-# DESIGN
+# Design
 
 ## Overall Architecture
 
@@ -104,13 +104,13 @@ Are there processes that happen concurrently or asynchronously? Are there result
 
 
 
-# OPEN QUESTIONS
+# Open Questions
 
 *This section is a useful place to record design risks during the process of devloping design.  Usually most of these questiosn will be resolved before development begins, however.  What still needs to be decided or described? This section can be omitted if irrelavant.*
 
 
 
-# CONCERNS AND RISKS
+# Concerns and Risks
 
 ## High-Level Risks
 
