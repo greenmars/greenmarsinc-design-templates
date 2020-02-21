@@ -121,7 +121,7 @@ Gee it would be nice if stuff was written here.
 
 ## Technical Debt (Existing)
 
-*Are there particularly tricky modules in the code our design plans to change? Who are the subject matter experts for those modules? Are there modules whose experts are no longer available?** Omit this section if irrelevant*.
+*Are there particularly tricky modules in the code our design plans to change? Who are the subject matter experts for those modules? Are there modules whose experts are no longer available?** Omit this section if irrelevant.*
 
 ## Technical Debt (New)
 
