@@ -23,7 +23,7 @@
 
 
 
-#Glossary
+# Glossary
 
 *Focus here on terms that are specific and new to the feature/scope of this document.*  Less-frequently used tools or standards should be included here.  (e.g., a feature involving HL7 should probably have a quick description of what HL7 is here, even if only a single short sentence.)
 
